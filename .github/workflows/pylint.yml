@@ -60,5 +60,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest==7.4.2
     - name: Pytest
-      run: tree
+      run: pwd && tree 
       # run: pytest ../homeworks_23/hw2/test_hw2.py
